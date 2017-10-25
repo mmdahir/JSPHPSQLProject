@@ -1,0 +1,200 @@
+body {
+  font-family: Helvetica;
+  padding: 2em;
+  background-color: whitesmoke;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+.skillset {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: inline-block
+}
+
+.skill-html {
+  background-color: #E55126;
+  display: inline-block;
+}
+
+.skill-js {
+  background-color: #E5A227;
+}
+
+.fitness-plan {
+    background-color: #00ed96; 
+}
+
+.skill-jquery {
+  background-color: #0C73B8;
+}
+
+.skill-html,
+.skill-js,
+.skill-jquery,
+.fitness-plan {
+  width: 100%;
+  max-width: 500px;
+  padding: 1em 3em 2em 2em;
+  margin: 0.5em;
+  color: whitesmoke;
+}
+
+.fbutton {
+  padding: 0.75em 1.25em;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  width: 5em;
+  color: black;
+  position:relative;
+  margin-bottom: 10px;
+}
+
+.username {
+    margin: 1em 0;
+}
+
+.password {
+    margin: 1em 0;
+}
+
+.usernameR {
+    margin: 1em 0;
+}
+
+.passwordR {
+    margin: 1em 0;
+}
+
+.firstname {
+    margin: 1em 0;
+}
+
+.lastname {
+    margin: 1em 0;
+}
+
+.result {
+    margin: 1em 0;
+}
+
+.after {
+    margin: 1em 0;
+}
+
+.set-address-button {
+  padding: 0.75em 1.25em;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  width: 5em;
+  color: black;
+  position:relative;
+  margin-bottom: 10px;
+}
+
+.get-address-button {
+  padding: 0.75em 1.25em;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  width: 5em;
+  color: black;
+  position:relative;
+  margin-bottom: 10px;
+}
+
+.login-submit-button {
+  padding: 0.75em 1.25em;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  width: 5em;
+  color: black;
+  position:relative;
+  margin-bottom: 10px;
+}
+
+.register-submit-button {
+  padding: 0.75em 1.25em;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  width: 5em;
+  color: black;
+  position:relative;
+  margin-bottom: 10px;
+}
+
+.address-submit-button {
+  padding: 0.75em 1.25em;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  width: 5em;
+  color: black;
+  position:relative;
+  margin-bottom: 10px;
+}
+
+.gym-button {
+  padding: 0.75em 1.25em;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  width: 5em;
+  color: black;
+  position:relative;
+  margin-bottom: 10px;
+}
+
+.trainers-button,
+.plans-button,
+.add-plans-button {
+  padding: 0.75em 1.25em;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  width: 5em;
+  color: black;
+  position:relative;
+  margin-bottom: 10px;
+}
+
+.input,
+.add-plan {
+    margin: 1em 0;
+}
+
+.gyms {
+    margin: 1em 0;
+    word-wrap: break-word;
+}
+
+.trainers,
+.plans {
+    margin: 1em 0;
+    word-wrap: break-word;
+}
+
+
+.addressview {
+    margin: 1em 0;
+    word-wrap: break-word;
+}
+
+.set-address {
+    margin: 1em 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.projects {
+  margin: 1em 0;
+  position:relative;
+}
+
+.active {
+  background-color: #333333;
+  color: whitesmoke;
+}
+

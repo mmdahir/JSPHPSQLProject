@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel='stylesheet' type='text/css' href='style.css'>
+</head>
+
+<body>
+
+  <h1>Workout Advisor</h1>
+  <div class='skillset'>
+    <div class='skill-html'>
+      <h1>Welcome</h1>
+      <p class='description'>
+        <div class='fbutton'>Login</div>
+        <div class='projects'>
+          <form>
+            Username:<br>
+            <input class='username' type="text" name="username">
+            <br>
+            Password:<br>
+            <input class='password' type="password" name="password">
+            <br><br>
+            <div class='login-submit-button'>Submit</div>
+          </form>
+        </div>
+        <div class='fbutton'>Register</div>
+        <div class='projects'>
+          <form>
+            Username:<br>
+            <input class='usernameR' type="text" name="username">
+            <br>
+            Password:<br>
+            <input class='passwordR' type="password" name="password">
+            <br>
+            First Name:<br>
+            <input class='firstname' type="text" name="firstname">
+            <br>
+            Last Name:<br>
+            <input class='lastname' type="text" name="lastname">
+            <br>
+            <input name='type' type='radio' id='gymuser' value= 0>Gym User
+            <br>
+            <input name='type' type='radio' id='trainer' value= 1>Personal Trainer
+            <br><br>
+            <div class='register-submit-button'>Submit</div>
+          </form>
+        </div>
+        <div class='result'></div>
+        <div class='after'>
+          <div class='get-address-button'>View Address</div>
+          <div class='addressview'></div>
+          <div class='set-address-button'>Set Address</div>
+          <div class='set-address'>
+            Address: <input class='input' type='text' name='address1'></br>
+            City: <input class='input' type='text' name='city'></br>
+            State: <input class='input' type='text' name='state'></br>
+            Zip: <input class='input' type='text' name='zip'></br>
+            <div class='address-submit-button'>Submit</div>
+          </div>
+        </div>
+      </p>
+    </div>
+
+    
+    <div class='skill-js'>
+      <h1>Gyms</h1>
+      <p class='description'>
+        <div class='gym-button'>Show Gyms</div>
+        <div class='gyms'></div>
+      </p>
+    </div>
+    
+    <div class='skill-jquery'>
+      <h1>Personal Trainers</h1>
+      <p class='description'>
+        <div class='trainers-button'>Show Trainers</div>
+        <div class='trainers'></div>
+      </p>
+    </div>
+    
+    <div class='fitness-plan'>
+      <h1>Fitness Plans</h1>
+      <p class='description'>
+        <div class='plans-button'>Show Fitness Plans</div>
+        <div class='plans'></div>
+        <div class='add-plans-button'>Add Plan</div>
+        <div class='add-plan'>
+          
+        </div>
+      </p>
+    </div>
+  </div>
+  
+<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+<script src='main.js'></script>
+</body>
+
+</html>
+
